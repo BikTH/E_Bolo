@@ -1,0 +1,1 @@
+<?php include('views/navbar/navbar_index.php') ?>

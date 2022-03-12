@@ -1,0 +1,5 @@
+<div class="card card-body p-0 text-center">
+    <img class="img-thumbnail w-100" id="preview_image" alt="Apercue image"/>
+</div>
+
+<input type="file" name="image" class="custom-file-input" id="image" onchange="document.getElementById('preview_image').src = window.URL.createObjectURL(this.files[0])">
